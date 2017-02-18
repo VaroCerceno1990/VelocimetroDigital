@@ -21,11 +21,11 @@ enum Velocidades : Int{
         case .Apagado:
             return "Apagado"
         case .VelocidadBaja:
-            return "Velocidad Baja"
+            return "Velocidad baja"
         case .VelocidadMedia:
-            return "Velocidad Media"
+            return "Velocidad media"
         case .VelocidadAlta:
-            return "Velocidad Alta"
+            return "Velocidad alta"
         }
     }
 }
