@@ -39,7 +39,7 @@ class Auto
        velocidad=Velocidades.init(velocidadInicial: Velocidades.Apagado)
     }
     
-    func cambioDeVelocidad()->( Int, String)
+    func cambioDeVelocidad()->( actual : Int, velocidadEnCadena: String)
     {
         let velocidadActual = self.velocidad
        
@@ -72,7 +72,8 @@ var tuplaMostrar:(Int,String)
 for i in 0 ..< 20{
     tuplaMostrar=auto.cambioDeVelocidad()
     print(tuplaMostrar)
-   
+    
 }
+
 
 
