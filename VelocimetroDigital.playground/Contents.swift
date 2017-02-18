@@ -36,7 +36,7 @@ class Auto
     var velocidad:Velocidades
     init()
     {
-       velocidad=Velocidades.init(velocidadInicial: Velocidades.Apagado)
+       velocidad=Velocidades(velocidadInicial: Velocidades.Apagado)
     }
     
     func cambioDeVelocidad()->( actual : Int, velocidadEnCadena: String)
